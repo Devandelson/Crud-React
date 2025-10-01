@@ -1,5 +1,6 @@
 import Frm from "./componentes/Frm.jsx";
 import Info from "./componentes/Info.jsx";
+import Assistant from "./componentes/assitent.jsx";
 import { ComponentDataConext } from "./componentes/dataContext.jsx";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
           <Frm></Frm>
           <span className='bg-white rounded-sm md:w-1.5 sm:w-full sm:h-1.5 md:h-full'></span>
           <Info></Info>
+          <Assistant></Assistant>
         </>
       </ComponentDataConext>
     </div>
